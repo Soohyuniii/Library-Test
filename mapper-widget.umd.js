@@ -847,4 +847,4 @@ void main() {
   display: flex;
   align-items: center;
   justify-content: center;
-`;function m7(){return vi.jsx("div",{className:"App",children:vi.jsx(f7,{})})}function n4(p){DC.createRoot(p).render(vi.jsx(m7,{}))}function a4(p){DC.createRoot(p).unmount()}typeof window<"u"&&(window.MyWidget={mount:n4,unmount:a4}),xa.mount=n4,xa.unmount=a4,Object.defineProperty(xa,Symbol.toStringTag,{value:"Module"})});
+`;function m7(){return vi.jsx("div",{className:"App",children:vi.jsx(f7,{})})}function n4(p){DC.createRoot(p).render(vi.jsx(m7,{}))}function a4(p){DC.createRoot(p).unmount()}typeof window<"u"&&(window.MapperWidget={mount:n4,unmount:a4}),xa.mount=n4,xa.unmount=a4,Object.defineProperty(xa,Symbol.toStringTag,{value:"Module"})});
