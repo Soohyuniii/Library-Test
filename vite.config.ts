@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Libaray-Test/", // ← GitHub repo명이랑 같게!
+  base: "/Library-Test/", // ← GitHub repo명이랑 같게!
   plugins: [react()],
   build: {
     lib: {
