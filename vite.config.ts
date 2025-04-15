@@ -9,7 +9,7 @@ export default defineConfig({
     lib: {
       entry: "src/main.tsx",
       name: "MapperWidget", // window.MapperWidget 또는 require('MapperWidget')
-      fileName: "mapper-widget",
+      fileName: (format) => `mapper-widget.${format}.js`, //  명시적으로 .js로 설정
       formats: ["umd"], // umd로 설경
     },
     rollupOptions: {

@@ -3,7 +3,7 @@ import App from "./App"; // React 컴포넌트인 App을 import
 // `declare global`을 사용하여 `window` 객체의 타입을 확장
 declare global {
   interface Window {
-    MyWidget: {
+    MapperWidget: {
       mount: (el: HTMLElement) => void;
       unmount: (el: HTMLElement) => void;
     };
@@ -22,7 +22,7 @@ function unmount(el: HTMLElement) {
 
 // window 객체에 MyWidget 이름으로 mount와 unmount 함수 할당
 if (typeof window !== "undefined") {
-  window.MyWidget = { mount, unmount };
+  window.MapperWidget = { mount, unmount };
 }
 
 // 외부에서 사용하려면 mount와 unmount를 export
