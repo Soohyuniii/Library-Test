@@ -517,7 +517,6 @@ void main() {
   font-weight: bold;
   color: #01c6c1;
   width: 100%;
-  align-items: center;
 `,Yh=or.div`
   display: flex;
   width: 100%;
