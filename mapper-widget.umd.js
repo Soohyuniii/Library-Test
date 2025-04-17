@@ -509,16 +509,16 @@ void main() {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 0 50px 50px;
+  padding: 50px;
   border-radius: 30px;
   border: 1px solid #e2e3d1;
   min-width: 1100px;
 `,xh=Ar.div`
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  align-items: flex-end;
-  text-align: right;
+  align-items: center;
+  gap: 200px;
+  font-size: 18px;
+  color: gray;
 `,Yh=Ar.div`
   display: flex;
   align-items: center;
