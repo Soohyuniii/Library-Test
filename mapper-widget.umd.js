@@ -510,8 +510,6 @@ void main() {
   align-items: center;
   justify-content: center;
   padding: 50px;
-  border-radius: 30px;
-  border: 1px solid #e2e3d1;
   min-width: 1100px;
 `,xh=Ar.div`
   display: flex;
