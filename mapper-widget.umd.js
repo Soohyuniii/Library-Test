@@ -551,4 +551,4 @@ void main() {
   display: flex;
   align-items: center;
   justify-content: center;
-`;function v2(){return Mt.jsx("div",{className:"App",children:Mt.jsx(k2,{})})}function wp(c){const e=Zu.createRoot(c);return console.log("Mounted!"),e.render(Mt.jsx(v2,{})),e}function xp(c){const e=Zu.createRoot(c);return e.unmount(),e}typeof window<"u"&&(window.MapperWidget={mount:wp,unmount:xp}),Dr.mount=wp,Dr.unmount=xp,Object.defineProperty(Dr,Symbol.toStringTag,{value:"Module"})});
+`;function v2(){return Mt.jsx("div",{className:"App",children:Mt.jsx(k2,{})})}function wp(c){const e=Zu.createRoot(c);console.log("Mounted!"),e.render(Mt.jsx(v2,{}))}function xp(c){Zu.createRoot(c).unmount()}typeof window<"u"&&(window.MapperWidget={mount:wp,unmount:xp}),Dr.mount=wp,Dr.unmount=xp,Object.defineProperty(Dr,Symbol.toStringTag,{value:"Module"})});
